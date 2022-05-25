@@ -17,6 +17,8 @@ LOCAL_SRC_FILES := $(LOCAL_MODULE)
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
+LOCAL_ENFORCE_USES_LIBRARIES := false
+LOCAL_DEX_PREOPT := false
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE := Lawnchair
 LOCAL_SRC_FILES := Lawnchair-12.0.0-Alpha-5.apk
