@@ -28,5 +28,6 @@ LOCAL_PRIVILEGED_MODULE := true
 LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_REQUIRED_MODULES := privapp-permissions-org.lawnchair.xml
+LOCAL_OVERRIDES_PACKAGES := ParanoidQuickStep Launcher3QuickStep PixelLauncher TrebuchetQuickStep
 include $(BUILD_PREBUILT)
 
